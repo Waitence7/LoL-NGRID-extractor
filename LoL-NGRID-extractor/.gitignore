@@ -1,0 +1,33 @@
+# --- 라이트 로직 및 가상환경 ---
+__pycache__/
+.venv/
+venv/
+.env
+
+# --- 대용량 데이터 파일 (GitHub 업로드 방지) ---
+*.wad
+*.wad.client
+*.bak
+*.tmp
+*.aimesh_ngrid
+
+# --- 운영체제 임시 파일 ---
+.DS_Store
+Thumbs.db
+
+# --- 로그 및 실행 파일 ---
+*.log
+dist/
+build/*.wad.client
+*.wad
+build.main/
+Map11.wad.client
+*.wad.client
+# 빌드 폴더 및 설정 파일
+dist/
+build/
+*.spec
+
+# 가상환경 (있다면)
+.venv/
+__pycache__/

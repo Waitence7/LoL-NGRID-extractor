@@ -1,0 +1,14 @@
+[project]
+name = "ngrid-extractor"
+version = "0.1.0"
+description = "LoL NavGrid WAD Extractor Tool"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pygithub>=2.9.0",
+    "tqdm>=4.67.3",
+    "zstandard>=0.25.0",
+]
+
+[project.scripts]
+start = "main:main"  # src/main.py 내부에 main() 함수가 있어야 함
